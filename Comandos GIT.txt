@@ -1,0 +1,26 @@
+Crear un directorio donde se guardarán los archivos del projecto ej Documentos/GitHub/
+	Dentro de GitHub click derecho y seleccionar Git Bash Here, luego por linea de comando,
+	seguir con git clone+ link del repositorio.
+
+git init (inicializa un archivo raiz, luego se puede trabajar con el archivo)
+git clone https://github.com/Kyntal/Repositorio-DWY-2018(link del repositorio)
+
+cd (direccionar a las carpetas)
+
+ls (muestra carpetas dentro de un directorio)
+
+git add 'nombre_del_archivo'(sirve para subir un sólo archivo)
+git add -A(prepara todos los archivos que se subirán al repositorio GitHub)
+
+git status(muestra los archivos que se subirán al repositorio online)
+
+git commit -m "nombre del commit" (sirve para confirmar y guardar todo lo hecho anteriormente)
+
+git push(sube todos los archivos al repositorio online)
+
+--PARA ACTUALIZAR DIRECTORIOS---
+
+git fetch (dentro del repositorio creado luego git merge)
+
+git merge origin/master (descarga los archivos recuperados con fetch)
+
